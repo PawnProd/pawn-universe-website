@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./main.css" rel="stylesheet"
+    <link href="./main.css" rel="stylesheet"/>
     <title>Pawn Universe - Website</title>
 </head>
 <body>
-    
+    <section class="intro">
+        <video class="background-video" autoplay loop muted>
+            <source src="./assets/videos/intro.mp4" type="video/mp4">
+        </video>
+        <nav class="primary-navigation">
+            <img src="./assets/svg/logo.svg" alt="Logo" />
+            <ul class="flex text-white uppercase fs-600 fw-300 letter-spacing-1" role="list">
+                <li><a>Qui suis je ?</a></li>
+                <li><a>Mes projets</a></li>
+                <li><a>Contact</a></li>
+                <li><a>Blog</a></li>
+                <li><span class="active">Fr</span>|<span>En</span></li>
+            </ul>
+        </nav>
+        <main class="container container--intro fw-300 letter-spacing-2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </main>
+        <footer class="flex flex--scroll">
+            <div class="scroll-indicator">
+                <img src="./assets/svg/scroll.svg" alt="Scroll" />
+                <img src="./assets/svg/chevron-down.svg" alt="Scroll" />
+            </div>
+        </footer>
+        <div class="gradient-overlay"></div>
+    </section>
 </body>
 </html>
