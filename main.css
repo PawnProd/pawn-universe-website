@@ -18,7 +18,7 @@
     --fs-600: 0.875rem;
 
     /* font-families */
-    --ff-bebas: "Bebas Kai";
+    --ff-bebas: "BebasKai";
     --ff-poppins : "Poppins";
 }
 
@@ -103,6 +103,10 @@ ol[role='list'] {
 /* Set core root defaults */
 html:focus-within {
     scroll-behavior: smooth;
+}
+
+section {
+    position: relative;
 }
 
 /* Set core body defaults */
@@ -207,6 +211,8 @@ select {
     justify-content: space-between;
     align-items: center;
 
+    position: relative;
+
     height: 55px;
     padding-left: 70px;
     padding-right: 57px;
@@ -249,12 +255,39 @@ select {
     z-index: 1;
 }
 
+.banner {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.banner > .scroll {
+    display: inline-flex;
+    animation: text-scrolling 150s linear infinite;
+}
+
+.background {
+
+    position: absolute;
+    margin-top: 100vh;
+
+    width: 100%;
+    height: 4629px;
+
+    background-image: url('./assets/images/background.jpg');
+    background-size: cover;
+    z-index: 1;
+    
+}
+
+
+
 /* -------------------- */
 /* Intro Section Layout */
 /* -------------------- */
 
 .intro {
-    margin-top: 75px;
+    padding-top: 75px;
     height: 100vh;
 }
 
@@ -306,6 +339,62 @@ select {
 }
 
 /* -------------------- */
+/* About me Layout      */
+/* -------------------- */
+
+.about-me {
+    padding-top: 109px;
+    z-index: 1;
+}
+
+.container--profil {
+    column-gap : 17.313rem;
+    row-gap: 9rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    position: relative;
+
+    max-width: 98rem;
+    margin-top: -104px;
+    z-index: 2;
+
+}
+
+.container--profil > img {
+    max-width: 624px;
+}
+
+.profil-text {
+    position: relative;
+    max-width: 467px;
+}
+
+.profil-text > p::before {
+    display: block;
+    content: '"';
+   
+    position: absolute;
+    left: -50px;
+    top: -85px;
+
+    font-size: 10em;
+}
+
+.profil-text > p::after {
+    display: block;
+    content: '"';
+
+    position: absolute;
+    right: -27px;
+    bottom: -108px;
+
+    font-size: 7em;
+}
+
+
+/* -------------------- */
 /* Animations           */
 /* -------------------- */
 
@@ -318,3 +407,23 @@ select {
 	    transform: rotateZ(360deg);
 	}
 }
+
+@keyframes turn-reverse {
+	from {
+	transform: rotateZ(0deg);
+	}
+
+	to {
+	transform: rotateZ(-360deg);
+	}
+}
+
+@keyframes text-scrolling {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-50%, 0 ,0);
+    }
+} 
