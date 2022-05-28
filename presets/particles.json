@@ -1,0 +1,118 @@
+{
+    "fpsLimit" : 60,
+    "particles": {
+    "collisions": {
+        "overlap": {
+        "enable": false
+        }
+    },
+    "color": {
+        "value": "#ffffff"
+    },
+    "life": {
+        "count": 0
+    },
+    "links": {
+        "width": 2,
+        "color": {
+        "value": "#ffffff"
+        },
+        "distance": 400,
+        "enable": true,
+        "opacity": 0.7
+    },
+    "move": {
+        "speed" : 0.5,
+        "attract": {
+        "distance": 100,
+        "rotate": {
+            "x": 300,
+            "y": 300
+        }
+        },
+        "enable": true,
+        "path": {},
+        "outModes": {
+        "bottom": "bounce",
+        "left": "bounce",
+        "right": "bounce",
+        "top": "bounce"
+        },
+        "spin": {}
+    },
+    "number": {
+        "value": 11
+    },
+    "opacity": {
+        "value": 1
+    },
+    "shape": {
+        "type": "image",
+        
+        "images": [
+            {
+                "src": "../assets/images/skills/csharp.jpg",
+                "width": 71,
+                "height" : 71
+            },
+            {
+                "src": "../assets/images/skills/css.jpg",
+                "width": 71,
+                "height" : 71
+            },
+            {
+                "src": "../assets/images/skills/html.jpg",
+                "width": 71,
+                "height" : 71
+            },
+            {
+                "src": "../assets/images/skills/javascript.jpg",
+                "width": 71,
+                "height" : 71
+            },
+            {
+                "src": "../assets/images/skills/php.jpg",
+                "width": 71,
+                "height" : 71
+            },
+            {
+                "src": "../assets/images/skills/prototype.jpg",
+                "width": 71,
+                "height" : 71
+            },
+            {
+                "src": "../assets/images/skills/react.jpg",
+                "width": 71,
+                "height" : 71
+            },
+            {
+                "src": "../assets/images/skills/sass.jpg",
+                "width": 71,
+                "height" : 71
+            },
+            {
+                "src": "../assets/images/skills/typescript.jpg",
+                "width": 71,
+                "height" : 71
+            },
+            {
+                "src": "../assets/images/skills/uiux.jpg",
+                "width": 71,
+                "height" : 71
+            },
+            {
+                "src": "../assets/images/skills/unity.jpg",
+                "width": 71,
+                "height" : 71
+            }
+        ]
+
+    },
+    "size": {
+        "value" : 30
+    }
+    ,
+    "reduceDuplicates": true
+    }
+    
+}

@@ -12,7 +12,7 @@
     --clr-grey: 315 5% 35%;
 
     /* font-size */
-    --fs-900: 12.5rem;
+    --fs-900: clamp(4rem, 8vw + 1rem ,12.5rem);
     --fs-800: 1.875rem;
     --fs-700: 1rem;
     --fs-600: 0.875rem;
@@ -393,6 +393,27 @@ select {
     font-size: 7em;
 }
 
+/* -------------------- */
+/* Skill Layout         */
+/* -------------------- */
+.skills {
+    position: relative;
+    padding-top: 215px;
+    z-index: 2;
+}
+
+.container--skills {
+    max-width: 85rem;
+}
+
+.container--skills > h1,
+.container--skills > p {
+    text-align: center;
+}
+
+.container--skills > p {
+    line-height: 1.7;
+}
 
 /* -------------------- */
 /* Animations           */
