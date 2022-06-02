@@ -1,5 +1,8 @@
 {
     "fpsLimit" : 60,
+    "fullScreen" : {
+        "enable" : false
+    },
     "particles": {
     "collisions": {
         "overlap": {
@@ -51,57 +54,57 @@
         
         "images": [
             {
-                "src": "../assets/images/skills/csharp.jpg",
+                "src": "https://pawn-universe.com/dev/assets/images/skills/csharp.jpg",
                 "width": 71,
                 "height" : 71
             },
             {
-                "src": "../assets/images/skills/css.jpg",
+                "src": "https://pawn-universe.com/dev/assets/images/skills/css.jpg",
                 "width": 71,
                 "height" : 71
             },
             {
-                "src": "../assets/images/skills/html.jpg",
+                "src": "https://pawn-universe.com/dev/assets/images/skills/html.jpg",
                 "width": 71,
                 "height" : 71
             },
             {
-                "src": "../assets/images/skills/javascript.jpg",
+                "src": "https://pawn-universe.com/dev/assets/images/skills/javascript.jpg",
                 "width": 71,
                 "height" : 71
             },
             {
-                "src": "../assets/images/skills/php.jpg",
+                "src": "https://pawn-universe.com/dev/assets/images/skills/php.jpg",
                 "width": 71,
                 "height" : 71
             },
             {
-                "src": "../assets/images/skills/prototype.jpg",
+                "src": "https://pawn-universe.com/dev/assets/images/skills/prototype.jpg",
                 "width": 71,
                 "height" : 71
             },
             {
-                "src": "../assets/images/skills/react.jpg",
+                "src": "https://pawn-universe.com/dev/assets/images/skills/react.jpg",
                 "width": 71,
                 "height" : 71
             },
             {
-                "src": "../assets/images/skills/sass.jpg",
+                "src": "https://pawn-universe.com/dev/assets/images/skills/sass.jpg",
                 "width": 71,
                 "height" : 71
             },
             {
-                "src": "../assets/images/skills/typescript.jpg",
+                "src": "https://pawn-universe.com/dev/assets/images/skills/typescript.jpg",
                 "width": 71,
                 "height" : 71
             },
             {
-                "src": "../assets/images/skills/uiux.jpg",
+                "src": "https://pawn-universe.com/dev/assets/images/skills/uiux.jpg",
                 "width": 71,
                 "height" : 71
             },
             {
-                "src": "../assets/images/skills/unity.jpg",
+                "src": "https://pawn-universe.com/dev/assets/images/skills/unity.jpg",
                 "width": 71,
                 "height" : 71
             }

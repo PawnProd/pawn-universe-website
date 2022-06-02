@@ -440,6 +440,7 @@ select {
 
 .container--profil > img {
     max-width: 624px;
+    width: 100%;
 }
 
 .profil-text {
@@ -490,6 +491,13 @@ select {
 .container--skills > p {
     line-height: 1.7;
 }
+
+.particles {
+    width: 100%;
+    max-width: 1262px;
+    height: 829px;
+}
+
 
 /* -------------------- */
 /* Project Layout       */
